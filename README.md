@@ -1,10 +1,12 @@
-# 🔐 Password Manager
+# Password Manager
 
-A desktop-based Password Manager built using Python, Tkinter and SQLite. This project allows users to register, log in and securely manage their website credentials through a simple graphical user interface.
+A desktop-based Password Manager built using Python, Tkinter and SQLite. This project allows users to register, log in and manage their website credentials through a simple graphical user interface.
+
+![alt text](images/image.png)
 
 The project is currently under development and is open to improvements, new features and contributions.
 
-## ✨ Features Implemented
+## Features Implemented
 
 - **User Registration:** Create a new account with a unique username and password.
 - **User Login:** Authenticate users using their registered credentials.
@@ -16,7 +18,11 @@ The project is currently under development and is open to improvements, new feat
 - **GUI Interface:** Desktop interface built using Tkinter.
 - **Database Relationships:** Foreign key relationships with cascading deletion support.
 
-## 🛠️ Tech Stack
+### Add Account
+
+![alt text](images/image1.png)
+
+## Tech Stack
 
 | Technology | Purpose                       |
 | ---------- | ----------------------------- |
@@ -27,7 +33,7 @@ The project is currently under development and is open to improvements, new feat
 | hmac       | Secure hash comparison        |
 | secrets    | Cryptographic salt generation |
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Password Manager/
@@ -43,27 +49,27 @@ Password Manager/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone YOUR_REPOSITORY_URL
 ```
 
-### 2. Navigate to the project directory
+### 2. Navigate to the Project Directory
 
 ```bash
 cd "Password Manager"
 ```
 
-### 3. Create a virtual environment
+### 3. Create a Virtual Environment
 
 ```bash
 python3 -m venv .venv
 ```
 
-### 4. Activate the virtual environment
+### 4. Activate the Virtual Environment
 
 For macOS/Linux:
 
@@ -77,7 +83,7 @@ For Windows:
 .venv\Scripts\activate
 ```
 
-### 5. Run the application
+### 5. Run the Application
 
 ```bash
 python3 main.py
@@ -85,7 +91,7 @@ python3 main.py
 
 **Note:** Python must have Tkinter support installed. On some macOS installations, a separate Tk-compatible Python installation may be required.
 
-## 🔒 Security Notes
+## Security Notes
 
 - Master account passwords are hashed using PBKDF2-HMAC with SHA-256 and individual random salts.
 - Website credentials are currently stored in plaintext in the local SQLite database.
@@ -94,7 +100,7 @@ python3 main.py
 
 This is currently a learning project and should not be used to store real or sensitive credentials until additional security measures are implemented.
 
-## 🛣️ Future Improvements
+## Future Improvements
 
 The project is open for improvement. Some planned features include:
 
@@ -110,7 +116,7 @@ The project is open for improvement. Some planned features include:
 - [ ] Add password strength checking.
 - [ ] Package the application into a standalone desktop executable.
 
-## 🤝 Contributions
+## Contributions
 
 This project is open to contributions and improvements.
 
@@ -118,9 +124,9 @@ If you have ideas for new features, bug fixes or improvements, feel free to fork
 
 Suggestions and constructive feedback are always welcome!
 
-## 📌 Project Status
+## Project Status
 
-**Status:** Under Development 🚧
+**Status: Under Development**
 
 This project is being developed as a hands-on learning experience to understand Python, GUI development, database management, authentication and application architecture.
 
@@ -128,4 +134,4 @@ More features and improvements will be added over time.
 
 ---
 
-Made with Python 🐍
+Made with Python.
